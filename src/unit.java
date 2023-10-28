@@ -60,14 +60,14 @@ public class unit {
                 "health=" + health +
                 ", defence=" + defence +
                 ", power=" + power +
+                ", name=" + name +
                 '}';
     }
-    public void print(){
+    public void pstat(){
         System.out.println(this);
     }
-    public void print(String str){
+    public void pstat(String str){
         System.out.println(str+this);
     }
-
 
 }
